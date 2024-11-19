@@ -27,16 +27,16 @@ int main() {
             printf("Digite o nome da cidade: ");
             scanf(" %[^\n]s", nome); // Lê a string com espaços
 
-            printf("Digite a população da cidade: ");
+            printf("Digite a população da cidade: \n");
             scanf("%d", &populacao);
 
-            printf("Digite a área da cidade (em km²): ");
+            printf("Digite a área da cidade (em km²): \n");
             scanf("%f", &area);
 
-            printf("Digite o PIB da cidade (em bilhões): ");
+            printf("Digite o PIB da cidade (em bilhões): \n");
             scanf("%f", &pib);
 
-            printf("Digite o número de pontos turísticos: ");
+            printf("Digite o número de pontos turísticos: \n");
             scanf("%d", &pontos_turisticos);
 
             // Exibição dos dados cadastrados

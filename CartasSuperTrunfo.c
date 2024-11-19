@@ -26,24 +26,36 @@ int main() {
             // Entrada de dados
             printf("Digite o nome da cidade: ");
             scanf(" %[^\n]s", nome); // Lê a string com espaços
+
             printf("Digite a população da cidade: ");
             scanf("%d", &populacao);
+
             printf("Digite a área da cidade (em km²): ");
             scanf("%f", &area);
+
             printf("Digite o PIB da cidade (em bilhões): ");
             scanf("%f", &pib);
+
             printf("Digite o número de pontos turísticos: ");
             scanf("%d", &pontos_turisticos);
 
             // Exibição dos dados cadastrados
             printf("\n--- Dados da Carta %s ---\n", codigo);
+
             printf("Estado: %c\n", estado);
+
             printf("Código da Carta: %s\n", codigo);
+
             printf("Nome da Cidade: %s\n", nome);
+
             printf("População: %d habitantes\n", populacao);
+
             printf("Área: %.2f km²\n", area);
+
             printf("PIB: %.2f bilhões de reais\n", pib);
+
             printf("Pontos Turísticos: %d\n", pontos_turisticos);
+            
         }
     }
 

@@ -17,19 +17,19 @@ int main() {
             codigo[2] = j + '0';
             codigo[3] = '\0';
             printf("\nCarta %s:\n", codigo);
-            printf("Digite o nome da cidade: ");
+            printf("Digite o nome da cidade: \n");
             scanf("%s", nome);
 
-            printf("Digite a população da cidade: ");
+            printf("Digite a população da cidade: \n");
             scanf("%d", &populacao);
 
-            printf("Digite a área da cidade: ");
+            printf("Digite a área da cidade: \n");
             scanf("%d", &area);
 
-            printf("Digite o PIB da cidade: ");
+            printf("Digite o PIB da cidade: \n");
             scanf("%f", &pib);
             
-            printf("Digite o número de pontos turísticos da cidade: ");
+            printf("Digite o número de pontos turísticos da cidade: \n");
             scanf("%d", &pontos_turisticos);
 
             // Exibição dos Dados das Cartas:

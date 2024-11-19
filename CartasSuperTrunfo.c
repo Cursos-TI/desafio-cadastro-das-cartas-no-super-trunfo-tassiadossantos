@@ -24,7 +24,7 @@ int main() {
             printf("\n=== Cadastro da Carta %s ===\n", codigo);
 
             // Entrada de dados
-            printf("Digite o nome da cidade: ");
+            printf("Digite o nome da cidade: \n");
             scanf(" %[^\n]s", nome); // Lê a string com espaços
 
             printf("Digite a população da cidade: \n");
